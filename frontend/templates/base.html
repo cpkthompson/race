@@ -57,7 +57,8 @@
     <nav class="navbar " style="padding: 20px;">
         <div class="navbar-brand">
             <a class="navbar-item w3-hover-none" href="{% url 'frontend:index' %}">
-                <img src="{% static 'frontend/img/kuntalogonewy.jpg' %}" alt="Bulma: a modern CSS framework based on Flexbox">
+                <img src="{% static 'frontend/img/kuntalogonewy.jpg' %}"
+                     alt="Bulma: a modern CSS framework based on Flexbox">
                 The Race for Human Diginity
             </a>
             <button class="button navbar-burger is-white" data-target="navMenu">
@@ -75,7 +76,7 @@
                 <a class="navbar-item is-uppercase" href="{% url 'frontend:work' %}">
                     Our Work
                 </a>
-                <a class="navbar-item is-uppercase is-active" href="{% url 'frontend:index' %}">
+                <a class="navbar-item is-uppercase" href="{% url 'frontend:index' %}">
                     Bello's Story
                 </a>
                 <a class="navbar-item is-uppercase" href="{% url 'frontend:team' %}">
