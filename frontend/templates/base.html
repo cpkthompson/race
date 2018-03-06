@@ -45,16 +45,6 @@
             overflow: auto
         }
 
-        .is-black {
-            background-color: black;
-        !important;
-        }
-
-        .menu-list a.is-active {
-            background-color: #1D7FF6;
-            color: #fff;
-        }
-
 
     </style>
     {% block css %}
@@ -64,10 +54,11 @@
 <body>
 
 <div class="stick-it">
-    <nav class="navbar " style="padding: 15px;">
+    <nav class="navbar " style="padding: 20px;">
         <div class="navbar-brand">
             <a class="navbar-item w3-hover-none" href="{% url 'frontend:index' %}">
-                <strong>The Race for Human Diginity</strong>
+                <img src="{% static 'frontend/img/kuntalogonewy.jpg' %}" alt="Bulma: a modern CSS framework based on Flexbox">
+                The Race for Human Diginity
             </a>
             <button class="button navbar-burger is-white" data-target="navMenu">
                 <span></span>
