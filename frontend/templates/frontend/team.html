@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container w3-center">
+        <div class="w3-content w3-padding-64">
+
+            <figure class="image">
+                <img src="{% static 'frontend/img/all.jpg' %}">
+            </figure>
+
+            <figure class="image w3-padding-64">
+                <img src="{% static 'frontend/img/bello.jpg' %}">
+            </figure>
+
+            <figure class="image w3-padding-64">
+                <img src="{% static 'frontend/img/prince.JPG' %}">
+            </figure>
+
+            <figure class="image w3-padding-64">
+                <img src="{% static 'frontend/img/joseph.png' %}">
+            </figure>
+        </div>
+    </div>
+{% endblock %}

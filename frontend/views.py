@@ -14,7 +14,7 @@ def work(request):
 
 
 def team(request):
-    return None
+    return render(request, 'frontend/team.html')
 
 
 def bello(request):
