@@ -6,7 +6,7 @@ def index(request):
 
 
 def donate(request):
-    return None
+    return render(request, 'frontend/donate.html')
 
 
 def work(request):
