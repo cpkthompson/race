@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        <div class="w3-half w3-padding-small">
+            <p class="content w3-padding-64" style="font-size: larger">
+                Meet Bello. Bello is a 59-year-old Nigerian migrant who was SOLD and is a survivor of the modern slavery
+                and human trafficking happening in Libya.
+                <br>
+                <br>
+                A Father of 6 children, he risked his life crossing deadly seas to seek greener pastures in Europe and
+                could easily have become one of over 10,000 refugees(Amnesty International, 2017) who have perished at
+                sea making this lethal voyage.
+                <br>
+                <br>
+
+                He’s made his way back to Ghana and, with Joseph Awah-Darko’s support, now seeks to use sports to share
+                his experience and create awareness to end the sale, trade and commodification of Africans. This is to
+                fulfil the UN Sustainable Development Goal of a ‘Peace, Justice and Strong Institutions.
+                <br>
+                <br>
+            </p>
+        </div>
+        <div class="w3-half w3-padding-small">
+            <figure class="image w3-padding-64">
+                <img src="{% static 'frontend/img/render.jpg' %}">
+            </figure>
+
+        </div>
+    </div>
+{% endblock %}
