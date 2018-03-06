@@ -22,4 +22,4 @@ def bello(request):
 
 
 def news(request):
-    return None
+    return render(request, 'frontend/news.html')
